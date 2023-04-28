@@ -13,3 +13,22 @@ embellished with the addition of external features such as AFINN, Language Asses
 Mechanical Turk, etc. The paper discusses how CNNs emerge as the superior model for suicide
 risk prediction over rule based and SVM-linear models based on 4 evaluation metrics, namely -
 Graded recall, Confusion matrix, Ordinal error and Perceived risk measure.
+
+#### Download Instruction for Data
+
+The data/ folder contains the following files - 
+
+1. 500_Reddit_users_posts_labels.csv - Annotated Reddit Post data
+2. AFINN-en-165.txt - Dataset contains words along with their AFINN score (ranging from -5 to 5)
+3. labMT - Language Assessment by Mechanical Turk - Dataset contains words, their
+average happiness score (polarity), standard deviations, and rankings (Twitter, Google,
+NYT, Lyrics).
+
+Download the ConceptNet term vectors ("English-only") 
+from [https://github.com/commonsense/conceptnet-numberbatch] - numberbatch-en-19.08.txt.gz
+Unzip numberbatch-en-19.08.txt.gz to obtain numberbatch-en.txt. Place numberbatch-en.txt in 
+the data/folder. 
+
+4. numberbatch-en.txt - A set of semantic vectors (word embeddings) 
+5. External_Features.csv - Dataset contains users along with AFINN score, labMT scores,
+First Person Pronouns Ratio, Height of the dependency parse tree and other characteristic features. 
