@@ -1,5 +1,7 @@
 ### Paper Reproduction: Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention Code Implementation 
 
+Paper Link - [Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention Code Implementation](https://www.researchgate.net/publication/333076070_Knowledge-aware_Assessment_of_Severity_of_Suicide_Risk_for_Early_Intervention)
+
 The research paper "Knowledge-aware Assessment of Severity of Suicide Risk for Early 
 Intervention" introduces a novel approach to identifying suicidal tendencies by analyzing
 Reddit data. Traditional methods for identifying suicidal behavior or ideation rely on surveys,
