@@ -18,18 +18,18 @@ Graded recall, Confusion matrix, Ordinal error and Perceived risk measure.
 
 #### Dependencies
 
-csv 1.0
-datetime (Python built-in module)
-gensim 4.3.1
-keras 2.12.0
-nltk 3.8.1 (Note: You need to download the 'punkt' resource from nltk)
-numpy 1.22.4
-pandas 1.4.4
-Python 3.9.16
-sklearn 1.2.2
-spaCy 3.5.1
-string (Python built-in module)
-tensorflow 2.12.0
+csv 1.0 \
+datetime (Python built-in module) \
+gensim 4.3.1 \
+keras 2.12.0 \
+nltk 3.8.1 (Note: You need to download the 'punkt' resource from nltk) \
+numpy 1.22.4 \
+pandas 1.4.4 \
+Python 3.9.16 \
+sklearn 1.2.2 \
+spaCy 3.5.1 \
+string (Python built-in module) \
+tensorflow 2.12.0 \
 
 #### Download Instruction for Data
 
