@@ -29,7 +29,7 @@ Python 3.9.16 \
 sklearn 1.2.2 \
 spaCy 3.5.1 \
 string (Python built-in module) \
-tensorflow 2.12.0 \
+tensorflow 2.12.0 
 
 #### Download Instruction for Data
 
@@ -78,7 +78,7 @@ can also be run in order to generate External_Features.csv.
 free to change the Hyperparameters. By default, the model runs a TF+CF scenario. To run only TF features, 
 please comment out the lines 
 
-tmp_feat.extend(list(train_ext_feat[index]))
+tmp_feat.extend(list(train_ext_feat[index])) \
 tmp_feat.extend(list(test_ext_feat[index]))
 
 5. Run the 4_label_classification.py and 5_label_classification.py Python files in a similar fashion. 
