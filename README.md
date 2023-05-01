@@ -16,6 +16,21 @@ Mechanical Turk, etc. The paper discusses how CNNs emerge as the superior model 
 risk prediction over rule based and SVM-linear models based on 4 evaluation metrics, namely -
 Graded recall, Confusion matrix, Ordinal error and Perceived risk measure.
 
+#### Dependencies
+
+csv 1.0
+datetime (Python built-in module)
+gensim 4.3.1
+keras 2.12.0
+nltk 3.8.1 (Note: You need to download the 'punkt' resource from nltk)
+numpy 1.22.4
+pandas 1.4.4
+Python 3.9.16
+sklearn 1.2.2
+spaCy 3.5.1
+string (Python built-in module)
+tensorflow 2.12.0
+
 #### Download Instruction for Data
 
 The data/ folder contains the following files - 
@@ -45,3 +60,25 @@ Indicator, Ideation, Behavior and Attempt.
 class is removed to focus on clinically relevant classes. 
 4. 3+1_label_classification.py - A Python file that performs 3+1 label classification - Supportive
 and Indicator classes are combined to form one control group class - No Risk class. 
+
+#### Instruction to Run the Code
+
+1. Download the code repository - Can be downloaded either as a ZIP file or using the command 
+$ https://github.com/ShravanRamakrishna/knowledge-aware-assessment-of-severity-of-suicide-risk-for-early-intervention.git. 
+
+2. Download the ConceptNet term vectors ("English-only") 
+from [https://github.com/commonsense/conceptnet-numberbatch] - numberbatch-en-19.08.txt.gz
+Unzip numberbatch-en-19.08.txt.gz to obtain numberbatch-en.txt. Place numberbatch-en.txt in 
+the data/folder. 
+
+3. External_Features.csv is already present in the data/ folder. However, create_external_features.py 
+can also be run in order to generate External_Features.csv. 
+
+4. Run the 3+1_label_classification.py Python file. Under the Hyperparameters section, please feel 
+free to change the Hyperparameters. By default, the model runs a TF+CF scenario. To run only TF features, 
+please comment out the lines 
+
+tmp_feat.extend(list(train_ext_feat[index]))
+tmp_feat.extend(list(test_ext_feat[index]))
+
+5. Run the 4_label_classification.py and 5_label_classification.py Python files in a similar fashion. 
