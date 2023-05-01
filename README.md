@@ -76,9 +76,10 @@ can also be run in order to generate External_Features.csv.
 
 4. Run the 3+1_label_classification.py Python file. Under the Hyperparameters section, please feel 
 free to change the Hyperparameters. By default, the model runs a TF+CF scenario. To run only TF features, 
-please comment out the lines 
+please comment out the lines  <br />
 
-tmp_feat.extend(list(train_ext_feat[index])) \
+
+tmp_feat.extend(list(train_ext_feat[index]))  <br />
 tmp_feat.extend(list(test_ext_feat[index]))
 
 5. Run the 4_label_classification.py and 5_label_classification.py Python files in a similar fashion. 
