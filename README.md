@@ -34,3 +34,14 @@ the data/folder.
 4. numberbatch-en.txt - A set of semantic vectors (word embeddings) 
 5. External_Features.csv - Dataset contains users along with AFINN score, labMT scores,
 First Person Pronouns Ratio, Height of the dependency parse tree and other characteristic features. 
+
+#### Functionality of Scripts
+
+1. create_external_features.py - Python file used to generate External_Features.csv. This file
+has already been run and the resulting output External_Features.csv is present in the data/ folder. 
+2. 5_label_classification.py - A Python file that performs 5 label classification - Supportive, 
+Indicator, Ideation, Behavior and Attempt. 
+3. 4_label_classificaation.py - A Python file that performs 4 label classification - Supportive 
+class is removed to focus on clinically relevant classes. 
+4. 3+1_label_classification.py - A Python file that performs 3+1 label classification - Supportive
+and Indicator classes are combined to form one control group class - No Risk class. 
